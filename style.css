@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 *{
@@ -30,8 +29,9 @@ section{
     border-radius: 12px 0 0 12px;
 }
 .image img{
-height:50vh;
-margin:50px auto
+    width: 100%;
+    height: 100%;
+
 }
 .content{
     background-color: #12192c;
@@ -64,32 +64,6 @@ margin:50px auto
     line-height: 1.7;
     color:#ffffff
 }
-.links{
-    margin: 15px 0;
-}
-.links li{
-    border: 2px solid #4158D0;
-    list-style: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    width: 160px;
-    text-align: center;
-}
-.links li a{
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-}
-.links li:hover{
-    border-color: #C850C0;
-}
-
-.vertical-line{
-    height: 30px;
-    width: 3px;
-    background: #C850C0;
-    margin: 0 auto;
-}
 .icons{
     display: flex;
     padding: 15px 0;
@@ -99,11 +73,12 @@ margin:50px auto
     padding: 5px;
     margin: 5px;
 }
-.icons li i{
+.icons li a{
     font-size: 26px;
     opacity: 0.8;
+    color: #ffffff;
 }
-.icons li i:hover{
+.icons li a:hover{
     color: #C850C0;
     cursor: pointer;
 }
@@ -135,28 +110,7 @@ margin:50px auto
     .content p{
         font-size: 14px;
     }
-    .links li a{
-        font-size: 14px;
-    }
-    .links{
-        margin: 5px 0;
-    }
-    .links li{
-        padding: 6px 10px;
-    }
-    .icons li i{
+    .icons li a{
         font-size: 15px;
     }
 }
-.credit{
-    text-align: center;
-    color: #000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-  .credit a{
-    text-decoration: none;
-    color:#000;
-    font-weight: bold;
-  }
-
