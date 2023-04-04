@@ -9,8 +9,8 @@
 body{
     font-family: 'Playfair Display', serif;
     display: grid;
-    background-color: #4158D0;
-    background: linear-gradient(to right, #8e2de2, #4a00e0, #00c3ff);
+    background-color: #575068;
+    background: linear-gradient(to right, #2a2432, #877f9e, #4d4559);
     align-content: center;
     min-height: 100vh;
 }
