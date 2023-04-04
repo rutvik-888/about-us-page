@@ -1,0 +1,28 @@
+name: Violet 
+description: >-
+
+  Have you been turned into music?  Would you like to be?
+
+
+version: 1.2.3
+
+homepage: https://rcsingers.netlify.app/
+
+
+environment:
+
+  sdk: '>=2.12.0 <3.0.0'
+
+  
+
+dependencies:
+
+  efts: ^2.0.4
+
+  transmogrify: ^0.4.0
+
+  
+
+dev_dependencies:
+
+  test: '>=1.15.0 <2.0.0'
