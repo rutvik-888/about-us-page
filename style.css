@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/druk-trial');
 
 *{
     box-sizing: border-box;
@@ -7,7 +6,7 @@
     margin: 0;
 }
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Druk Wide Trial', sans-serif;
     display: grid;
     background-color: #575068;
     background: linear-gradient(to right, #2a2432, #877f9e, #4d4559);
