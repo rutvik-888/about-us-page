@@ -23,7 +23,7 @@ section{
     border-radius: 12px
 }
 .image{
-    background-color: #12192c;
+    background-color: #282829;
     display: flex;
     border-radius: 12px 0 0 12px;
 }
@@ -33,7 +33,7 @@ section{
     border-radius: 12px 0px 0px 12px
 }
 .content{
-    background-color: #12192c;
+    background-color: #282829;
     display: flex;
     justify-content: center;
     flex-direction: column;
